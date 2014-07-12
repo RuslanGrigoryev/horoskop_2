@@ -212,7 +212,7 @@ footer .wrapper {
   width: 1015px;
   height: 385px;
   margin: 0 auto;
-  padding: 10px 36px 10px 28px;
+  padding: 20px 28px;
   background: url(../../images/markup/bg-slider.png) no-repeat;
   position: relative;
 }
@@ -233,7 +233,7 @@ footer .wrapper {
   overflow: hidden;
   position: relative;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 4px;
 }
 
 .slide-wrap {
@@ -244,9 +244,27 @@ footer .wrapper {
 }
 
 .slide-item {
-  width: 280px;
+  width: 182px;
+  height: 344px;
   padding: 10px;
+  margin: 0 4px;
   float: left;
+}
+
+.slide-item-01 {
+  background: url(../../images/markup/slide-item-01.png) no-repeat;
+}
+
+.slide-item-02 {
+  background: url(../../images/markup/slide-item-02.png) no-repeat;
+}
+
+.slide-item-03 {
+  background: url(../../images/markup/slide-item-03.png) no-repeat;
+}
+
+.slide-item-04 {
+  background: url(../../images/markup/slide-item-04.png) no-repeat;
 }
 
 .slide-title {
