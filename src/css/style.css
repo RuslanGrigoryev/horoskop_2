@@ -125,7 +125,7 @@ table {
 .wrapper .f-left, .wrapper .f-right {
   min-height: 100%;
   height: 61px;
-  width: 360px;
+  width: 347px;
 }
 .wrapper .f-left span, .wrapper .f-right span {
   font-size: 18px;
@@ -136,7 +136,7 @@ table {
 .wrapper .wrap {
   position: absolute;
   left: 360px;
-  height: 166px;
+  height: 167px;
   width: 300px;
   margin: 0 auto;
   background: url(../images/markup/logo.png) no-repeat;
@@ -146,6 +146,7 @@ table {
 }
 .wrapper .f-right {
   text-align: left;
+  width: 358px;
 }
 
 .top-header {
@@ -163,7 +164,7 @@ table {
 }
 .bottom-header .wrapper {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 95px;
 }
 
 .btn-hire {
@@ -172,7 +173,8 @@ table {
   width: 219px;
   color: #6d0019;
   text-align: center;
-  padding-top: 8px;
+  padding-top: 9px;
+  margin-top: -19px;
   height: 61px;
   display: inline-block;
   background: url(../images/markup/bg-btn-hire.png) no-repeat;
@@ -182,10 +184,10 @@ table {
 }
 
 .main {
-  min-height: 500px;
+  min-height: 452px;
 }
 .main .wrapper {
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 footer {
@@ -259,11 +261,11 @@ footer .wrapper {
   font-size: 18px;
   color: #f9de75;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 19px;
 }
 .slide-item strong {
   font-size: 13px;
-  margin-top: 10px;
+  margin-top: 17px;
   color: #93a0a3;
   display: block;
   text-align: center;
@@ -271,7 +273,8 @@ footer .wrapper {
 .slide-item p {
   color: #fff;
   font-size: 13px;
-  margin-top: 23px;
+  margin-top: 17px;
+  padding: 0 0 0 11px;
 }
 
 .slide-item-01 {
@@ -349,6 +352,7 @@ footer .wrapper {
   font-size: 17px;
   color: #fff;
   text-align: center;
+  line-height: 18px;
 }
 .popup__window__text--bottom {
   margin-top: 30px;
@@ -357,14 +361,15 @@ footer .wrapper {
   font-size: 32px;
   text-align: center;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
+  word-spacing: 1px;
 }
 .popup__btn {
   position: absolute;
-  bottom: 30px;
-  left: 240px;
+  bottom: 18px;
+  left: 238px;
   font-size: 26px;
-  padding-top: 13px;
+  padding-top: 11px;
 }
 .popup__btn--access {
   width: 246px;
@@ -388,7 +393,7 @@ footer .wrapper {
 }
 
 .phone-form {
-  margin-top: 10px !important;
+  margin-top: 0px !important;
 }
 
 .phone-form label {
@@ -396,7 +401,7 @@ footer .wrapper {
   font-size: 18px;
   display: block;
   text-align: center;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .phone-form input {
@@ -425,5 +430,5 @@ footer .wrapper {
 
 .input-hint {
   font-size: 11px;
-  margin: 10px 0 25px 0;
+  margin: 10px 0 18px 0;
 }
